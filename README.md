@@ -7,7 +7,7 @@
 
 # Attributions
 
-https://stackoverflow.com
+https://stackoverflow.com \n
 https://cocoacasts.com/swift-fundamentals-adding-a-gesture-recognizer-to-an-image-view-in-swift
 
 
