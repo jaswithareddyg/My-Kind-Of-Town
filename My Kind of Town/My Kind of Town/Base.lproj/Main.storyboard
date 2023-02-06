@@ -84,7 +84,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="TVA-aB-3bq">
+                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" showsCompass="NO" showsPointsOfInterest="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TVA-aB-3bq">
                                 <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                                 <standardMapConfiguration key="preferredConfiguration"/>
                             </mapView>
