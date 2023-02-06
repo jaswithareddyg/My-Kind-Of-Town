@@ -7,27 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		BC2D07B02991137B006545C0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC2D07AF2991137B006545C0 /* AppDelegate.swift */; };
-		BC2D07B22991137B006545C0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC2D07B12991137B006545C0 /* SceneDelegate.swift */; };
-		BC2D07B42991137B006545C0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC2D07B32991137B006545C0 /* ViewController.swift */; };
-		BC2D07B72991137B006545C0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC2D07B52991137B006545C0 /* Main.storyboard */; };
-		BC2D07B92991137C006545C0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BC2D07B82991137C006545C0 /* Assets.xcassets */; };
-		BC2D07BC2991137C006545C0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC2D07BA2991137C006545C0 /* LaunchScreen.storyboard */; };
+		BC057FDF299119A500F8AE0C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC057FDE299119A500F8AE0C /* AppDelegate.swift */; };
+		BC057FE1299119A500F8AE0C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC057FE0299119A500F8AE0C /* SceneDelegate.swift */; };
+		BC057FE3299119A500F8AE0C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC057FE2299119A500F8AE0C /* ViewController.swift */; };
+		BC057FE6299119A500F8AE0C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC057FE4299119A500F8AE0C /* Main.storyboard */; };
+		BC057FE8299119A600F8AE0C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BC057FE7299119A600F8AE0C /* Assets.xcassets */; };
+		BC057FEB299119A600F8AE0C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC057FE9299119A600F8AE0C /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		BC2D07AC2991137B006545C0 /* My Kind of Town.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "My Kind of Town.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		BC2D07AF2991137B006545C0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		BC2D07B12991137B006545C0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		BC2D07B32991137B006545C0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		BC2D07B62991137B006545C0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		BC2D07B82991137C006545C0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		BC2D07BB2991137C006545C0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		BC2D07BD2991137C006545C0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BC057FDB299119A500F8AE0C /* My Kind of Town.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "My Kind of Town.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC057FDE299119A500F8AE0C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BC057FE0299119A500F8AE0C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		BC057FE2299119A500F8AE0C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BC057FE5299119A500F8AE0C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BC057FE7299119A600F8AE0C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BC057FEA299119A600F8AE0C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BC057FEC299119A600F8AE0C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		BC2D07A92991137B006545C0 /* Frameworks */ = {
+		BC057FD8299119A500F8AE0C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -37,32 +37,32 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		BC2D07A32991137B006545C0 = {
+		BC057FD2299119A500F8AE0C = {
 			isa = PBXGroup;
 			children = (
-				BC2D07AE2991137B006545C0 /* My Kind of Town */,
-				BC2D07AD2991137B006545C0 /* Products */,
+				BC057FDD299119A500F8AE0C /* My Kind of Town */,
+				BC057FDC299119A500F8AE0C /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		BC2D07AD2991137B006545C0 /* Products */ = {
+		BC057FDC299119A500F8AE0C /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				BC2D07AC2991137B006545C0 /* My Kind of Town.app */,
+				BC057FDB299119A500F8AE0C /* My Kind of Town.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		BC2D07AE2991137B006545C0 /* My Kind of Town */ = {
+		BC057FDD299119A500F8AE0C /* My Kind of Town */ = {
 			isa = PBXGroup;
 			children = (
-				BC2D07AF2991137B006545C0 /* AppDelegate.swift */,
-				BC2D07B12991137B006545C0 /* SceneDelegate.swift */,
-				BC2D07B32991137B006545C0 /* ViewController.swift */,
-				BC2D07B52991137B006545C0 /* Main.storyboard */,
-				BC2D07B82991137C006545C0 /* Assets.xcassets */,
-				BC2D07BA2991137C006545C0 /* LaunchScreen.storyboard */,
-				BC2D07BD2991137C006545C0 /* Info.plist */,
+				BC057FDE299119A500F8AE0C /* AppDelegate.swift */,
+				BC057FE0299119A500F8AE0C /* SceneDelegate.swift */,
+				BC057FE2299119A500F8AE0C /* ViewController.swift */,
+				BC057FE4299119A500F8AE0C /* Main.storyboard */,
+				BC057FE7299119A600F8AE0C /* Assets.xcassets */,
+				BC057FE9299119A600F8AE0C /* LaunchScreen.storyboard */,
+				BC057FEC299119A600F8AE0C /* Info.plist */,
 			);
 			path = "My Kind of Town";
 			sourceTree = "<group>";
@@ -70,13 +70,13 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		BC2D07AB2991137B006545C0 /* My Kind of Town */ = {
+		BC057FDA299119A500F8AE0C /* My Kind of Town */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = BC2D07C02991137C006545C0 /* Build configuration list for PBXNativeTarget "My Kind of Town" */;
+			buildConfigurationList = BC057FEF299119A600F8AE0C /* Build configuration list for PBXNativeTarget "My Kind of Town" */;
 			buildPhases = (
-				BC2D07A82991137B006545C0 /* Sources */,
-				BC2D07A92991137B006545C0 /* Frameworks */,
-				BC2D07AA2991137B006545C0 /* Resources */,
+				BC057FD7299119A500F8AE0C /* Sources */,
+				BC057FD8299119A500F8AE0C /* Frameworks */,
+				BC057FD9299119A500F8AE0C /* Resources */,
 			);
 			buildRules = (
 			);
@@ -84,25 +84,25 @@
 			);
 			name = "My Kind of Town";
 			productName = "My Kind of Town";
-			productReference = BC2D07AC2991137B006545C0 /* My Kind of Town.app */;
+			productReference = BC057FDB299119A500F8AE0C /* My Kind of Town.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		BC2D07A42991137B006545C0 /* Project object */ = {
+		BC057FD3299119A500F8AE0C /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1420;
 				LastUpgradeCheck = 1420;
 				TargetAttributes = {
-					BC2D07AB2991137B006545C0 = {
+					BC057FDA299119A500F8AE0C = {
 						CreatedOnToolsVersion = 14.2;
 					};
 				};
 			};
-			buildConfigurationList = BC2D07A72991137B006545C0 /* Build configuration list for PBXProject "My Kind of Town" */;
+			buildConfigurationList = BC057FD6299119A500F8AE0C /* Build configuration list for PBXProject "My Kind of Town" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -110,55 +110,55 @@
 				en,
 				Base,
 			);
-			mainGroup = BC2D07A32991137B006545C0;
-			productRefGroup = BC2D07AD2991137B006545C0 /* Products */;
+			mainGroup = BC057FD2299119A500F8AE0C;
+			productRefGroup = BC057FDC299119A500F8AE0C /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				BC2D07AB2991137B006545C0 /* My Kind of Town */,
+				BC057FDA299119A500F8AE0C /* My Kind of Town */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		BC2D07AA2991137B006545C0 /* Resources */ = {
+		BC057FD9299119A500F8AE0C /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BC2D07BC2991137C006545C0 /* LaunchScreen.storyboard in Resources */,
-				BC2D07B92991137C006545C0 /* Assets.xcassets in Resources */,
-				BC2D07B72991137B006545C0 /* Main.storyboard in Resources */,
+				BC057FEB299119A600F8AE0C /* LaunchScreen.storyboard in Resources */,
+				BC057FE8299119A600F8AE0C /* Assets.xcassets in Resources */,
+				BC057FE6299119A500F8AE0C /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		BC2D07A82991137B006545C0 /* Sources */ = {
+		BC057FD7299119A500F8AE0C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BC2D07B42991137B006545C0 /* ViewController.swift in Sources */,
-				BC2D07B02991137B006545C0 /* AppDelegate.swift in Sources */,
-				BC2D07B22991137B006545C0 /* SceneDelegate.swift in Sources */,
+				BC057FE3299119A500F8AE0C /* ViewController.swift in Sources */,
+				BC057FDF299119A500F8AE0C /* AppDelegate.swift in Sources */,
+				BC057FE1299119A500F8AE0C /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		BC2D07B52991137B006545C0 /* Main.storyboard */ = {
+		BC057FE4299119A500F8AE0C /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				BC2D07B62991137B006545C0 /* Base */,
+				BC057FE5299119A500F8AE0C /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		BC2D07BA2991137C006545C0 /* LaunchScreen.storyboard */ = {
+		BC057FE9299119A600F8AE0C /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				BC2D07BB2991137C006545C0 /* Base */,
+				BC057FEA299119A600F8AE0C /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -166,7 +166,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		BC2D07BE2991137C006545C0 /* Debug */ = {
+		BC057FED299119A600F8AE0C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -226,7 +226,7 @@
 			};
 			name = Debug;
 		};
-		BC2D07BF2991137C006545C0 /* Release */ = {
+		BC057FEE299119A600F8AE0C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -280,7 +280,7 @@
 			};
 			name = Release;
 		};
-		BC2D07C12991137C006545C0 /* Debug */ = {
+		BC057FF0299119A600F8AE0C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -291,7 +291,7 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "My Kind of Town/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
@@ -308,7 +308,7 @@
 			};
 			name = Debug;
 		};
-		BC2D07C22991137C006545C0 /* Release */ = {
+		BC057FF1299119A600F8AE0C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -319,7 +319,7 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "My Kind of Town/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
@@ -339,25 +339,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		BC2D07A72991137B006545C0 /* Build configuration list for PBXProject "My Kind of Town" */ = {
+		BC057FD6299119A500F8AE0C /* Build configuration list for PBXProject "My Kind of Town" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				BC2D07BE2991137C006545C0 /* Debug */,
-				BC2D07BF2991137C006545C0 /* Release */,
+				BC057FED299119A600F8AE0C /* Debug */,
+				BC057FEE299119A600F8AE0C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		BC2D07C02991137C006545C0 /* Build configuration list for PBXNativeTarget "My Kind of Town" */ = {
+		BC057FEF299119A600F8AE0C /* Build configuration list for PBXNativeTarget "My Kind of Town" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				BC2D07C12991137C006545C0 /* Debug */,
-				BC2D07C22991137C006545C0 /* Release */,
+				BC057FF0299119A600F8AE0C /* Debug */,
+				BC057FF1299119A600F8AE0C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = BC2D07A42991137B006545C0 /* Project object */;
+	rootObject = BC057FD3299119A500F8AE0C /* Project object */;
 }
