@@ -12,9 +12,16 @@ class ViewController: UIViewController{
     
     @IBOutlet var mapView: MKMapView!
     
+    @IBOutlet var starButton: UIButton!
     
+    @IBAction func starButton(sender: UIButton)
+    {
+        sender.isSelected = !sender.isSelected
+    }
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        
     }
     
     @IBAction func didTapImageView(_ sender: UITapGestureRecognizer) {
