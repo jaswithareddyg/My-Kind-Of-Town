@@ -154,12 +154,35 @@
                                     <userDefinedRuntimeAttribute type="boolean" keyPath="layer.maskToBouds" value="YES"/>
                                 </userDefinedRuntimeAttributes>
                             </view>
+                            <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" pointerInteraction="YES" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="l4s-Mx-Z3j">
+                                <rect key="frame" x="20" y="724" width="353" height="57"/>
+                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                <state key="normal" title="Button">
+                                    <attributedString key="attributedTitle">
+                                        <fragment content="FAVORITE PLACES">
+                                            <attributes>
+                                                <font key="NSFont" size="36" name="HelveticaNeue-Bold"/>
+                                                <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                            </attributes>
+                                        </fragment>
+                                    </attributedString>
+                                    <color key="titleColor" red="1" green="0.33146619524150878" blue="0.70855267812363842" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <buttonConfiguration key="configuration" style="filled" title="FAVORITE PLACES">
+                                    <fontDescription key="titleFontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="36"/>
+                                    <color key="baseForegroundColor" red="1" green="0.33146619524150878" blue="0.70855267812363842" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <color key="baseBackgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </buttonConfiguration>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="S2f-EE-4CK"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="TVA-aB-3bq" firstAttribute="leading" secondItem="RgL-RR-41Q" secondAttribute="leading" id="8Dr-aR-WZ3"/>
                             <constraint firstAttribute="trailing" secondItem="TVA-aB-3bq" secondAttribute="trailing" id="8m2-Bv-3VG"/>
+                            <constraint firstItem="l4s-Mx-Z3j" firstAttribute="leading" secondItem="S2f-EE-4CK" secondAttribute="leading" constant="20" id="G6F-Oo-ejQ"/>
+                            <constraint firstItem="S2f-EE-4CK" firstAttribute="bottom" secondItem="l4s-Mx-Z3j" secondAttribute="bottom" constant="37" id="ceG-78-JWE"/>
+                            <constraint firstItem="S2f-EE-4CK" firstAttribute="trailing" secondItem="l4s-Mx-Z3j" secondAttribute="trailing" constant="20" id="min-Rs-hSd"/>
                             <constraint firstItem="TVA-aB-3bq" firstAttribute="top" secondItem="RgL-RR-41Q" secondAttribute="top" id="u2L-1j-C80"/>
                             <constraint firstAttribute="bottom" secondItem="TVA-aB-3bq" secondAttribute="bottom" id="wG0-Eh-c8O"/>
                         </constraints>
