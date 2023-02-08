@@ -18,13 +18,14 @@ class ViewController: UIViewController{
     {
         sender.isSelected = !sender.isSelected
     }
+    
+    @IBAction func didTapImageView(_ sender: UITapGestureRecognizer) {
+        print("tapped", sender)
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
         
-    }
-    
-    @IBAction func didTapImageView(_ sender: UITapGestureRecognizer) {
-        print("tapped", sender)
     }
 }
