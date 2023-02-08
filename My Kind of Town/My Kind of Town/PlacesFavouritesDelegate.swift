@@ -6,11 +6,9 @@
 //
 
 import Foundation
-import UIKit
 
-class FavouritesViewController: UITableViewController {
+protocol PlacesFavoritesDelegate: AnyObject {
     
-    override func viewDidLoad() {
-        super.viewDidLoad()
-    }
+    // Receive a string representing the name of a place
+    func favoritePlace(name: String) -> Void
 }
