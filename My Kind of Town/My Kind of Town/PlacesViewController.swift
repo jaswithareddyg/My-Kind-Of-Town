@@ -6,3 +6,9 @@
 //
 
 import Foundation
+import MapKit
+
+class PlacesViewController: UIViewController {
+    override func viewDidLoad() {
+        super.viewDidLoad()
+}
