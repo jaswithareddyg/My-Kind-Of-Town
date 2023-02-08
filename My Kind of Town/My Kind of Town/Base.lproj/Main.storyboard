@@ -173,11 +173,6 @@
                                     <color key="baseForegroundColor" red="0.94344145059999995" green="0.3348520398" blue="0.70974522829999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                     <color key="baseBackgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </buttonConfiguration>
-                                <connections>
-                                    <segue destination="hK8-4h-jm2" kind="popoverPresentation" popoverAnchorView="l4s-Mx-Z3j" id="nWI-TZ-rpB">
-                                        <popoverArrowDirection key="popoverArrowDirection" up="YES" down="YES" left="YES" right="YES"/>
-                                    </segue>
-                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="S2f-EE-4CK"/>
@@ -205,18 +200,18 @@
         <!--FavouritesViewController-->
         <scene sceneID="J30-Hy-E9G">
             <objects>
-                <viewController title="FavouritesViewController" id="hK8-4h-jm2" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="FavouritesViewController" title="FavouritesViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="hK8-4h-jm2" customClass="PlacesViewController" customModule="My_Kind_of_Town" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="ch1-Oy-j5I">
-                        <rect key="frame" x="0.0" y="0.0" width="393" height="783"/>
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="hhn-3c-byO">
-                                <rect key="frame" x="16" y="108" width="361" height="641"/>
+                                <rect key="frame" x="16" y="120" width="361" height="698"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                             </tableView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gLR-4x-yIb">
-                                <rect key="frame" x="16" y="20" width="361" height="80"/>
+                                <rect key="frame" x="16" y="59" width="361" height="53"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <attributedString key="attributedText">
                                     <fragment content="FAVORITE PLACES">
