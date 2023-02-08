@@ -13,6 +13,12 @@
 		BC057FE6299119A500F8AE0C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC057FE4299119A500F8AE0C /* Main.storyboard */; };
 		BC057FE8299119A600F8AE0C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BC057FE7299119A600F8AE0C /* Assets.xcassets */; };
 		BC057FEB299119A600F8AE0C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC057FE9299119A600F8AE0C /* LaunchScreen.storyboard */; };
+		BC7D2CA02993728B00F888DD /* PlacesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC7D2C9F2993728B00F888DD /* PlacesViewController.swift */; };
+		BC7D2CA2299372A900F888DD /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC7D2CA1299372A900F888DD /* DataManager.swift */; };
+		BC7D2CA4299372D700F888DD /* PlacesFavouritesDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC7D2CA3299372D700F888DD /* PlacesFavouritesDelegate.swift */; };
+		BC7D2CA6299372E700F888DD /* Place.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC7D2CA5299372E700F888DD /* Place.swift */; };
+		BC7D2CA8299372FC00F888DD /* PlaceMarkerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC7D2CA7299372FC00F888DD /* PlaceMarkerView.swift */; };
+		BC7D2CAA2993734500F888DD /* Data.plist in Resources */ = {isa = PBXBuildFile; fileRef = BC7D2CA92993734500F888DD /* Data.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +30,12 @@
 		BC057FE7299119A600F8AE0C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BC057FEA299119A600F8AE0C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BC057FEC299119A600F8AE0C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BC7D2C9F2993728B00F888DD /* PlacesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlacesViewController.swift; sourceTree = "<group>"; };
+		BC7D2CA1299372A900F888DD /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
+		BC7D2CA3299372D700F888DD /* PlacesFavouritesDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlacesFavouritesDelegate.swift; sourceTree = "<group>"; };
+		BC7D2CA5299372E700F888DD /* Place.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Place.swift; sourceTree = "<group>"; };
+		BC7D2CA7299372FC00F888DD /* PlaceMarkerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceMarkerView.swift; sourceTree = "<group>"; };
+		BC7D2CA92993734500F888DD /* Data.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Data.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,10 +71,16 @@
 				BC057FDE299119A500F8AE0C /* AppDelegate.swift */,
 				BC057FE0299119A500F8AE0C /* SceneDelegate.swift */,
 				BC057FE2299119A500F8AE0C /* ViewController.swift */,
+				BC7D2C9F2993728B00F888DD /* PlacesViewController.swift */,
+				BC7D2CA1299372A900F888DD /* DataManager.swift */,
+				BC7D2CA3299372D700F888DD /* PlacesFavouritesDelegate.swift */,
+				BC7D2CA5299372E700F888DD /* Place.swift */,
+				BC7D2CA7299372FC00F888DD /* PlaceMarkerView.swift */,
 				BC057FE4299119A500F8AE0C /* Main.storyboard */,
 				BC057FE7299119A600F8AE0C /* Assets.xcassets */,
 				BC057FE9299119A600F8AE0C /* LaunchScreen.storyboard */,
 				BC057FEC299119A600F8AE0C /* Info.plist */,
+				BC7D2CA92993734500F888DD /* Data.plist */,
 			);
 			path = "My Kind of Town";
 			sourceTree = "<group>";
@@ -127,6 +145,7 @@
 			files = (
 				BC057FEB299119A600F8AE0C /* LaunchScreen.storyboard in Resources */,
 				BC057FE8299119A600F8AE0C /* Assets.xcassets in Resources */,
+				BC7D2CAA2993734500F888DD /* Data.plist in Resources */,
 				BC057FE6299119A500F8AE0C /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -138,8 +157,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BC7D2CA02993728B00F888DD /* PlacesViewController.swift in Sources */,
+				BC7D2CA2299372A900F888DD /* DataManager.swift in Sources */,
+				BC7D2CA8299372FC00F888DD /* PlaceMarkerView.swift in Sources */,
 				BC057FE3299119A500F8AE0C /* ViewController.swift in Sources */,
 				BC057FDF299119A500F8AE0C /* AppDelegate.swift in Sources */,
+				BC7D2CA4299372D700F888DD /* PlacesFavouritesDelegate.swift in Sources */,
+				BC7D2CA6299372E700F888DD /* Place.swift in Sources */,
 				BC057FE1299119A500F8AE0C /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
