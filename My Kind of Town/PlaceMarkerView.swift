@@ -9,12 +9,11 @@ import Foundation
 import MapKit
 
 class PlaceMarkerView: MKMarkerAnnotationView {
-    
     override var annotation: MKAnnotation? {
         willSet {
             clusteringIdentifier = "Place"
-            displayPriority = .defaultLow
-            markerTintColor = .systemRed
+            displayPriority = .defaultHigh
+            markerTintColor = UIColor.red
             glyphImage = UIImage(systemName: "pin.fill")
         }
     }
