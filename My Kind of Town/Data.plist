@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>region</key>
+	<array>
+		<real>41.795068</real>
+		<real>-87.596532</real>
+	</array>
+	<key>places</key>
+	<array>
+		<dict>
+			<key>name</key>
+			<string>Medici On 57th</string>
+			<key>description</key>
+			<string>U of Chicago BYO hangout where pizza, burgers &amp; sandwiches figure among the American eats.</string>
+			<key>lat</key>
+			<real>41.79138</real>
+			<key>long</key>
+			<real>-87.59361199999999</real>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Potbelly Sandwich Shop</string>
+			<key>description</key>
+			<string>Potbelly Corporation is a publicly traded American fast-casual restaurant chain that focuses on submarine sandwiches and milkshakes.</string>
+			<key>lat</key>
+			<real>41.797098</real>
+			<key>long</key>
+			<real>-87.588205</real>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Valois</string>
+			<key>description</key>
+			<string>A counter-service smorgasbord of American comfort food served in a casual, muraled space.</string>
+			<key>lat</key>
+			<real>41.799681</real>
+			<key>long</key>
+			<real>-87.58836700000001</real>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Insomnia Cookies</string>
+			<key>description</key>
+			<string>Insomnia Cookies is a chain of bakeries in the United States that specializes in delivering warm cookies, baked goods, and ice cream.</string>
+			<key>lat</key>
+			<real>41.794824</real>
+			<key>long</key>
+			<real>-87.599419</real>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Plein Air Cafe</string>
+			<key>description</key>
+			<string>Bright cafe &amp; coffeehouse serving its java with French specialties in a cheerful setting.</string>
+			<key>lat</key>
+			<real>41.790073</real>
+			<key>long</key>
+			<real>-87.595961</real>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Cafe 53</string>
+			<key>description</key>
+			<string>Small, laid-back coffeehouse pairing its java with sandwiches, ice cream &amp; free WiFi in cozy digs.</string>
+			<key>lat</key>
+			<real>41.79939</real>
+			<key>long</key>
+			<real>-87.59240200000001</real>
+		</dict>
+	</array>
+</dict>
+</plist>
