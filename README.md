@@ -88,4 +88,9 @@ Explore the vibrant city of Chicago and discover its iconic landmarks with the "
 ### Swipe to Delete
 - [Add Swipe to Delete UITableViewCell](https://stackoverflow.com/questions/24103069/add-swipe-to-delete-uitableviewcell) 
 
+## Additional Information
+
+- This project was developed using Xcode and Swift.
+- For issues or questions, contact [(Jas) Jaswitha](mailto:jaswithareddyguntaka@gmail.com).
+
 Explore the beauty of Chicago with "My Kind of Town" – an app designed to make your exploration delightful and interactive! 🏙🗺
